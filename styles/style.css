@@ -1,0 +1,198 @@
+@font-face {
+  font-family: 'titulo';
+  src: url("../fuentes/UrbanJungleDEMO.otf");
+}
+
+.navegacion {
+  height: 300px;
+  width: 100%;
+  background-image: url("../img/panelsolar.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navegacion .titulo {
+  height: 270px;
+  width: 100%;
+}
+
+.navegacion .titulo .sun-inovation {
+  color: #FF5D00;
+  font-family: "Bauhaus 93";
+  font-size: 80px;
+}
+
+.navegacion .titulo .img img {
+  width: 60px;
+}
+
+.navegacion .menu .nav {
+  width: 100%;
+}
+
+.navegacion .menu .nav ul {
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navegacion .menu .nav ul li {
+  font-size: 20px;
+  margin: 0px 10px;
+  float: right;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: inline-block;
+}
+
+.navegacion .menu .nav ul li a {
+  text-decoration: none;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+  color: white;
+}
+
+.navegacion .menu .nav ul li a:hover {
+  color: #1CFF61;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+}
+
+.main {
+  background-color: #f8f7f7;
+  width: 100%;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main .mision {
+  background-image: url("../img/bombillo.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  height: 600px;
+}
+
+.main .mision .texto {
+  margin-top: 50px;
+}
+
+.main .vision {
+  background-image: url("../img/casa2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  margin-top: 500px;
+  height: 600px;
+}
+
+.main .objetivos {
+  background-image: url("../img/panel2.webp");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  margin-top: 500px;
+  height: 600px;
+}
+
+.main .articulo {
+  border-radius: 3px;
+  top: 100px;
+  left: 5%;
+  width: 80%;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.616);
+  height: 470px;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+}
+
+.main .articulo:hover {
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: rgba(255, 255, 255, 0.836);
+}
+
+.main .articulo .subtitulo .h2 {
+  padding-left: 60px;
+  font-size: 60px;
+  font-family: arial;
+  color: #1E8E00;
+}
+
+.main .articulo .texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .articulo .texto .parrafos {
+  margin: 10px;
+  color: black;
+  width: 60%;
+  text-align: left;
+  margin-left: 10%;
+  font-size: 20px;
+}
+
+.main .articulo .texto .imagen-trabajo-padre .imagen-trabajo {
+  width: 70%;
+  margin: 5% 2% 5% 20%;
+  border-radius: 5px;
+}
+
+#contactenos {
+  background-color: gray;
+  font-size: 20px;
+}
+
+#contactenos .contacto {
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+#contactenos .contacto li {
+  list-style: none;
+}
+
+#contactenos .contacto li a {
+  text-decoration: none;
+  color: black;
+}
+
+#contactenos .contacto .li-negrita {
+  color: black;
+}
+
+#contactenos .contacto .li-negrita:hover {
+  color: #1CFF61;
+}
+
+* {
+  margin: auto;
+  padding: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,96 @@
+.main {
+    background-color: rgb(248, 247, 247);
+    width: 100%;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    .mision {
+        background-image: url("../img/bombillo.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        margin: auto;
+        position: relative;
+        // top: 50px;
+        // left: 80px;
+        height: 600px;
+        .texto{
+            margin-top: 50px;
+        }
+    }
+    .vision {
+        background-image: url("../img/casa2.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        margin: auto;
+        position: relative;
+        margin-top: 500px;
+        // right: 80px;
+        height: 600px;
+    }
+    .objetivos {
+        background-image: url("../img/panel2.webp");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        margin: auto;
+        position: relative;
+        margin-top: 500px;
+        // left: 80px;
+        height: 600px;
+    }
+    .articulo {
+        border-radius: 3px;
+        top: 100px;
+        left: 5%;
+        width: 80%;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.616);
+        height: 470px;
+        transition: 0.5s ease all;
+        &:hover{
+            transition: 0.5s ease all;
+            transform:scale(1.1);
+            background-color: rgba(255, 255, 255, 0.836);
+        }
+        .subtitulo {
+            .h2 {
+                padding-left: 60px;
+                // background-color: cyan;
+                font-size: 60px;
+                font-family: arial;
+                color: $verde2;
+            }
+        }
+        .texto {
+            display: flex;
+            .parrafos {
+                margin: 10px;
+                color: black;
+                // background-color: chartreuse;
+                width: 60%;
+                text-align: left;
+                margin-left: 10%;
+                font-size: 20px;
+            }
+            // .dos{
+            //     color: blue;
+            //     background-color: chartreuse;
+            //     width: 60%;
+            //     text-align: right;
+            //     margin-right: 10%;
+            //     font-size: 20px;
+            // }
+            .imagen-trabajo-padre {
+                .imagen-trabajo {
+                    width: 70%;
+                    margin: 5% 2% 5% 20%;
+                    border-radius: 5px;
+                }
+            }
+        }
+    } 
+}

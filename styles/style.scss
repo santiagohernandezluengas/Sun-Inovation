@@ -1,0 +1,15 @@
+@import './variables';
+@import './header';
+@import './main';
+@import './footer';
+
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    scroll-behavior:smooth;
+    transition: 0.5s ease all;
+}

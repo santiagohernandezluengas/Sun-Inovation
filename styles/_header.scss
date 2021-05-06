@@ -1,0 +1,48 @@
+.navegacion {
+    height: 300px;
+    width: 100%;
+    background-image: url("../img/panelsolar.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .titulo {
+        height: 270px;
+        width: 100%;
+        .sun-inovation {
+            color: $Naranja;
+            font-family: "Bauhaus 93";
+            font-size: 80px;
+        }
+        .img {
+            img {
+                width: 60px;
+            }
+        }
+    }
+    .menu {
+        .nav {
+            width: 100%;
+            ul {
+                height: 30px;
+                background-color: rgba(0, 0, 0, .5);
+                li {
+                    font-size: 20px;
+                    margin: 0px 10px;
+                    float: right;
+                    list-style: none;
+                    justify-content: space-between;
+                    display: inline-block;
+                    a {
+                        text-decoration: none;
+                        transition: $tiempo;
+                        color: rgb(255, 255, 255);
+                        &:hover{
+                            color: $verde;
+                            transition: $tiempo;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

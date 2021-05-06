@@ -1,0 +1,22 @@
+#contactenos{
+    background-color: gray;
+    font-size: 20px;
+    .contacto{
+        padding:10px;
+        margin: auto;
+        text-align: center;
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+        .li-negrita{
+            color: black;
+            &:hover{
+                color: $verde;
+            }
+        }
+    }
+}
